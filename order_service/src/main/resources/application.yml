@@ -18,10 +18,17 @@ spring:
   application:
     name: orderservice
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:10080/eureka/
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:10080/eureka/
+
+
+  cloud:
+    nacos:
+      discovery:
+        # nacos 服务端地址
+        server-addr: localhost:8848
 
 
 # 开启debug模式，输出调试信息，常用于检查系统运行状况
