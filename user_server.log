@@ -469,3 +469,140 @@
 2022-07-13 20:43:31.104  INFO 4204 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2022-07-13 20:43:31.107  INFO 4204 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-07-13 20:43:31.108  INFO 4204 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-13 21:21:26.499  INFO 23420 --- [main] mao.user_service.UserServiceApplication  : No active profile set, falling back to default profiles: default
+2022-07-13 21:21:27.054  INFO 23420 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=446433d6-76f3-3404-bc4a-db6d53ede6c8
+2022-07-13 21:21:27.276  INFO 23420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-13 21:21:27.283  INFO 23420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-13 21:21:27.283  INFO 23420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-07-13 21:21:27.414  INFO 23420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-13 21:21:27.415  INFO 23420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 903 ms
+2022-07-13 21:21:27.517  INFO 23420 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-13 21:21:27.627  INFO 23420 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-13 21:21:27.692  WARN 23420 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-13 21:21:27.693  INFO 23420 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-13 21:21:27.696  WARN 23420 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-13 21:21:27.696  INFO 23420 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-13 21:21:27.818  INFO 23420 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-13 21:21:28.067  INFO 23420 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-07-13 21:21:28.625  INFO 23420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-13 21:21:28.640  INFO 23420 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP userservice 192.168.202.1:8082 register finished
+2022-07-13 21:21:28.692  INFO 5740 --- [main] mao.user_service.UserServiceApplication  : No active profile set, falling back to default profiles: default
+2022-07-13 21:21:28.800  INFO 23420 --- [main] mao.user_service.UserServiceApplication  : Started UserServiceApplication in 3.188 seconds (JVM running for 3.784)
+2022-07-13 21:21:29.329  INFO 5740 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=446433d6-76f3-3404-bc4a-db6d53ede6c8
+2022-07-13 21:21:29.587  INFO 5740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2022-07-13 21:21:29.597  INFO 5740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-13 21:21:29.597  INFO 5740 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-07-13 21:21:29.718  INFO 5740 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-13 21:21:29.719  INFO 5740 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1013 ms
+2022-07-13 21:21:29.822  INFO 5740 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-13 21:21:29.938  INFO 5740 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-13 21:21:29.999  WARN 5740 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-13 21:21:29.999  INFO 5740 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-13 21:21:30.002  WARN 5740 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-13 21:21:30.002  INFO 5740 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-13 21:21:30.153  INFO 5740 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-13 21:21:30.493  INFO 5740 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-07-13 21:21:31.056  INFO 5740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2022-07-13 21:21:31.067  INFO 5740 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP userservice 192.168.202.1:8083 register finished
+2022-07-13 21:21:31.136  INFO 11464 --- [main] mao.user_service.UserServiceApplication  : No active profile set, falling back to default profiles: default
+2022-07-13 21:21:31.244  INFO 5740 --- [main] mao.user_service.UserServiceApplication  : Started UserServiceApplication in 3.512 seconds (JVM running for 4.103)
+2022-07-13 21:21:31.714  INFO 11464 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=446433d6-76f3-3404-bc4a-db6d53ede6c8
+2022-07-13 21:21:31.940  INFO 11464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2022-07-13 21:21:31.947  INFO 11464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-13 21:21:31.948  INFO 11464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-07-13 21:21:32.066  INFO 11464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-13 21:21:32.066  INFO 11464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 911 ms
+2022-07-13 21:21:32.170  INFO 11464 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-13 21:21:32.266  INFO 11464 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-13 21:21:32.321  WARN 11464 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-13 21:21:32.321  INFO 11464 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-13 21:21:32.324  WARN 11464 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-13 21:21:32.324  INFO 11464 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-13 21:21:32.450  INFO 11464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-13 21:21:32.718  INFO 11464 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-07-13 21:21:33.177  INFO 11464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2022-07-13 21:21:33.189  INFO 11464 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP userservice 192.168.202.1:8084 register finished
+2022-07-13 21:21:33.345  INFO 11464 --- [main] mao.user_service.UserServiceApplication  : Started UserServiceApplication in 3.274 seconds (JVM running for 3.889)
+2022-07-13 21:22:53.871  INFO 23420 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-13 21:22:53.871  INFO 23420 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-13 21:22:53.875  INFO 23420 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-07-13 21:22:54.118 DEBUG 23420 --- [http-nio-8082-exec-1] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 21:22:54.135 DEBUG 23420 --- [http-nio-8082-exec-1] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 21:22:54.153 DEBUG 23420 --- [http-nio-8082-exec-1] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 21:22:54.828 DEBUG 23420 --- [http-nio-8082-exec-2] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 21:22:54.828 DEBUG 23420 --- [http-nio-8082-exec-2] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 21:22:54.830 DEBUG 23420 --- [http-nio-8082-exec-2] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 21:22:55.251 DEBUG 23420 --- [http-nio-8082-exec-3] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 21:22:55.251 DEBUG 23420 --- [http-nio-8082-exec-3] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 21:22:55.253 DEBUG 23420 --- [http-nio-8082-exec-3] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 21:22:55.510 DEBUG 23420 --- [http-nio-8082-exec-4] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 21:22:55.511 DEBUG 23420 --- [http-nio-8082-exec-4] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 21:22:55.512 DEBUG 23420 --- [http-nio-8082-exec-4] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 21:22:55.704 DEBUG 23420 --- [http-nio-8082-exec-5] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 21:22:55.704 DEBUG 23420 --- [http-nio-8082-exec-5] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 21:22:55.705 DEBUG 23420 --- [http-nio-8082-exec-5] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 21:22:55.856 DEBUG 23420 --- [http-nio-8082-exec-6] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 21:22:55.857 DEBUG 23420 --- [http-nio-8082-exec-6] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 21:22:55.858 DEBUG 23420 --- [http-nio-8082-exec-6] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 21:24:29.657  WARN 5740 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-13 21:24:29.657  WARN 5740 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2022-07-13 21:24:29.658  WARN 5740 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2022-07-13 21:24:29.658  WARN 5740 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2022-07-13 21:24:29.691  INFO 5740 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-07-13 21:24:29.693  INFO 5740 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2022-07-13 21:24:29.695  INFO 5740 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2022-07-13 21:24:35.301  WARN 5740 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2022-07-13 21:24:35.301  INFO 5740 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-13 21:24:35.303  INFO 5740 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-13 21:24:35.303  INFO 5740 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-13 21:35:48.416  INFO 10060 --- [main] mao.user_service.UserServiceApplication  : No active profile set, falling back to default profiles: default
+2022-07-13 21:35:48.967  INFO 10060 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=446433d6-76f3-3404-bc4a-db6d53ede6c8
+2022-07-13 21:35:49.220  INFO 10060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2022-07-13 21:35:49.229  INFO 10060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-13 21:35:49.230  INFO 10060 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-07-13 21:35:49.358  INFO 10060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-13 21:35:49.359  INFO 10060 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 930 ms
+2022-07-13 21:35:49.468  INFO 10060 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-13 21:35:49.559  INFO 10060 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-13 21:35:49.617  WARN 10060 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-13 21:35:49.618  INFO 10060 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-13 21:35:49.620  WARN 10060 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-13 21:35:49.621  INFO 10060 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-13 21:35:49.745  INFO 10060 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-13 21:35:49.998  INFO 10060 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-07-13 21:35:50.463  INFO 10060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2022-07-13 21:35:50.471  INFO 10060 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP userservice 192.168.202.1:8083 register finished
+2022-07-13 21:35:50.604  INFO 10060 --- [main] mao.user_service.UserServiceApplication  : Started UserServiceApplication in 3.059 seconds (JVM running for 3.71)
+2022-07-13 21:39:08.497  WARN 23420 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-13 21:39:08.502  WARN 23420 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2022-07-13 21:39:08.502  WARN 23420 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2022-07-13 21:39:08.503  WARN 23420 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2022-07-13 21:39:08.526  INFO 23420 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-07-13 21:39:08.527  WARN 10060 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-13 21:39:08.527  WARN 10060 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2022-07-13 21:39:08.527  WARN 10060 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2022-07-13 21:39:08.528  WARN 10060 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2022-07-13 21:39:08.528  INFO 23420 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2022-07-13 21:39:08.530  INFO 23420 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2022-07-13 21:39:08.551  INFO 10060 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-07-13 21:39:08.553  INFO 10060 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2022-07-13 21:39:08.556  INFO 10060 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2022-07-13 21:39:08.558  WARN 11464 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2022-07-13 21:39:08.558  WARN 11464 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-13 21:39:08.558  WARN 11464 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2022-07-13 21:39:08.559  WARN 11464 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2022-07-13 21:39:08.585  INFO 11464 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-07-13 21:39:08.587  INFO 11464 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2022-07-13 21:39:08.590  INFO 11464 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2022-07-13 21:39:14.763  WARN 10060 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2022-07-13 21:39:14.765  INFO 10060 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-13 21:39:14.767  INFO 10060 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-13 21:39:14.769  INFO 10060 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-13 21:39:15.701  WARN 23420 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2022-07-13 21:39:15.702  INFO 23420 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-13 21:39:15.704  INFO 23420 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-13 21:39:15.707  INFO 23420 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-13 21:39:16.600  WARN 11464 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2022-07-13 21:39:16.601  INFO 11464 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-13 21:39:16.602  INFO 11464 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-13 21:39:16.603  INFO 11464 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
