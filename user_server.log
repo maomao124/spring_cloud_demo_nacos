@@ -344,3 +344,128 @@
 2022-07-13 20:11:46.570 DEBUG 19068 --- [http-nio-8083-exec-6] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
 2022-07-13 20:11:46.571 DEBUG 19068 --- [http-nio-8083-exec-6] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
 2022-07-13 20:11:46.573 DEBUG 19068 --- [http-nio-8083-exec-6] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:17.766  WARN 15912 --- [http-nio-8082-exec-6] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/cloud_user, version : 1.2.8, lastPacketReceivedIdleMillis : 512415
+2022-07-13 20:20:17.785 DEBUG 15912 --- [http-nio-8082-exec-6] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:17.785 DEBUG 15912 --- [http-nio-8082-exec-6] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:17.786 DEBUG 15912 --- [http-nio-8082-exec-6] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:18.290 DEBUG 15912 --- [http-nio-8082-exec-7] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:18.290 DEBUG 15912 --- [http-nio-8082-exec-7] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:18.292 DEBUG 15912 --- [http-nio-8082-exec-7] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:18.629 DEBUG 15912 --- [http-nio-8082-exec-8] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:18.629 DEBUG 15912 --- [http-nio-8082-exec-8] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:18.630 DEBUG 15912 --- [http-nio-8082-exec-8] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:18.920 DEBUG 15912 --- [http-nio-8082-exec-9] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:18.920 DEBUG 15912 --- [http-nio-8082-exec-9] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:18.921 DEBUG 15912 --- [http-nio-8082-exec-9] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:19.192 DEBUG 15912 --- [http-nio-8082-exec-10] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:19.192 DEBUG 15912 --- [http-nio-8082-exec-10] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:19.193 DEBUG 15912 --- [http-nio-8082-exec-10] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:19.445 DEBUG 15912 --- [http-nio-8082-exec-1] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:19.446 DEBUG 15912 --- [http-nio-8082-exec-1] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:19.446 DEBUG 15912 --- [http-nio-8082-exec-1] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:19.716 DEBUG 15912 --- [http-nio-8082-exec-2] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:19.716 DEBUG 15912 --- [http-nio-8082-exec-2] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:19.718 DEBUG 15912 --- [http-nio-8082-exec-2] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:19.947 DEBUG 15912 --- [http-nio-8082-exec-3] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:19.947 DEBUG 15912 --- [http-nio-8082-exec-3] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:19.949 DEBUG 15912 --- [http-nio-8082-exec-3] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:20.208 DEBUG 15912 --- [http-nio-8082-exec-4] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:20.209 DEBUG 15912 --- [http-nio-8082-exec-4] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:20.209 DEBUG 15912 --- [http-nio-8082-exec-4] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:20.447 DEBUG 15912 --- [http-nio-8082-exec-5] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:20.448 DEBUG 15912 --- [http-nio-8082-exec-5] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:20.449 DEBUG 15912 --- [http-nio-8082-exec-5] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:20.980 DEBUG 15912 --- [http-nio-8082-exec-6] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:20.980 DEBUG 15912 --- [http-nio-8082-exec-6] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:20.981 DEBUG 15912 --- [http-nio-8082-exec-6] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:21.287 DEBUG 15912 --- [http-nio-8082-exec-7] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:21.288 DEBUG 15912 --- [http-nio-8082-exec-7] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:21.289 DEBUG 15912 --- [http-nio-8082-exec-7] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:21.569 DEBUG 15912 --- [http-nio-8082-exec-8] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:21.569 DEBUG 15912 --- [http-nio-8082-exec-8] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:21.570 DEBUG 15912 --- [http-nio-8082-exec-8] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:21.898 DEBUG 15912 --- [http-nio-8082-exec-9] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:21.898 DEBUG 15912 --- [http-nio-8082-exec-9] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:21.899 DEBUG 15912 --- [http-nio-8082-exec-9] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:22.210 DEBUG 15912 --- [http-nio-8082-exec-10] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:22.211 DEBUG 15912 --- [http-nio-8082-exec-10] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:22.212 DEBUG 15912 --- [http-nio-8082-exec-10] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:22.490 DEBUG 15912 --- [http-nio-8082-exec-1] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:22.491 DEBUG 15912 --- [http-nio-8082-exec-1] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:22.491 DEBUG 15912 --- [http-nio-8082-exec-1] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:22.809 DEBUG 15912 --- [http-nio-8082-exec-2] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:22.809 DEBUG 15912 --- [http-nio-8082-exec-2] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:22.810 DEBUG 15912 --- [http-nio-8082-exec-2] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:23.112 DEBUG 15912 --- [http-nio-8082-exec-3] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:23.112 DEBUG 15912 --- [http-nio-8082-exec-3] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:23.113 DEBUG 15912 --- [http-nio-8082-exec-3] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:23.419 DEBUG 15912 --- [http-nio-8082-exec-4] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:23.419 DEBUG 15912 --- [http-nio-8082-exec-4] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:23.420 DEBUG 15912 --- [http-nio-8082-exec-4] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:23.666 DEBUG 15912 --- [http-nio-8082-exec-5] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:23.667 DEBUG 15912 --- [http-nio-8082-exec-5] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:23.668 DEBUG 15912 --- [http-nio-8082-exec-5] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:39.228 DEBUG 15912 --- [http-nio-8082-exec-6] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:39.228 DEBUG 15912 --- [http-nio-8082-exec-6] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:39.229 DEBUG 15912 --- [http-nio-8082-exec-6] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:39.589 DEBUG 15912 --- [http-nio-8082-exec-7] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:39.589 DEBUG 15912 --- [http-nio-8082-exec-7] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:39.591 DEBUG 15912 --- [http-nio-8082-exec-7] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:39.950 DEBUG 15912 --- [http-nio-8082-exec-8] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:39.951 DEBUG 15912 --- [http-nio-8082-exec-8] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:39.952 DEBUG 15912 --- [http-nio-8082-exec-8] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:40.254 DEBUG 15912 --- [http-nio-8082-exec-9] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:40.255 DEBUG 15912 --- [http-nio-8082-exec-9] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:40.256 DEBUG 15912 --- [http-nio-8082-exec-9] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:40.589 DEBUG 15912 --- [http-nio-8082-exec-10] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:40.590 DEBUG 15912 --- [http-nio-8082-exec-10] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:40.591 DEBUG 15912 --- [http-nio-8082-exec-10] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:40.873  WARN 19068 --- [http-nio-8083-exec-8] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/cloud_user, version : 1.2.8, lastPacketReceivedIdleMillis : 534300
+2022-07-13 20:20:40.903 DEBUG 19068 --- [http-nio-8083-exec-8] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:40.903 DEBUG 19068 --- [http-nio-8083-exec-8] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:40.904 DEBUG 19068 --- [http-nio-8083-exec-8] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:41.161 DEBUG 15912 --- [http-nio-8082-exec-1] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:41.161 DEBUG 15912 --- [http-nio-8082-exec-1] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:41.162 DEBUG 15912 --- [http-nio-8082-exec-1] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:41.420 DEBUG 15912 --- [http-nio-8082-exec-2] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:41.420 DEBUG 15912 --- [http-nio-8082-exec-2] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:41.422 DEBUG 15912 --- [http-nio-8082-exec-2] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:41.688 DEBUG 15912 --- [http-nio-8082-exec-3] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:41.688 DEBUG 15912 --- [http-nio-8082-exec-3] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:41.689 DEBUG 15912 --- [http-nio-8082-exec-3] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:20:41.924 DEBUG 15912 --- [http-nio-8082-exec-4] m.u.mapper.UserMapper.findById           : ==>  Preparing: select * from tb_user where id = ?
+2022-07-13 20:20:41.924 DEBUG 15912 --- [http-nio-8082-exec-4] m.u.mapper.UserMapper.findById           : ==> Parameters: 1(Long)
+2022-07-13 20:20:41.926 DEBUG 15912 --- [http-nio-8082-exec-4] m.u.mapper.UserMapper.findById           : <==      Total: 1
+2022-07-13 20:43:21.886  WARN 15912 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-13 20:43:21.886  WARN 15912 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2022-07-13 20:43:21.886  WARN 15912 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2022-07-13 20:43:21.887  WARN 15912 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2022-07-13 20:43:21.920  WARN 19068 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-13 20:43:21.920  WARN 19068 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2022-07-13 20:43:21.920  WARN 19068 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2022-07-13 20:43:21.921  WARN 19068 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2022-07-13 20:43:21.933  INFO 15912 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-07-13 20:43:21.937  INFO 15912 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2022-07-13 20:43:21.940  INFO 15912 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2022-07-13 20:43:21.951  WARN 4204 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-13 20:43:21.951  WARN 4204 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2022-07-13 20:43:21.951  WARN 4204 --- [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2022-07-13 20:43:21.952  WARN 4204 --- [Thread-4] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2022-07-13 20:43:21.968  INFO 19068 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-07-13 20:43:21.971  INFO 19068 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2022-07-13 20:43:21.974  INFO 19068 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2022-07-13 20:43:21.998  INFO 4204 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-07-13 20:43:22.002  INFO 4204 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2022-07-13 20:43:22.005  INFO 4204 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2022-07-13 20:43:28.963  WARN 15912 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2022-07-13 20:43:28.963  INFO 15912 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-13 20:43:28.966  INFO 15912 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-13 20:43:28.969  INFO 15912 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-13 20:43:29.543  WARN 19068 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2022-07-13 20:43:29.544  INFO 19068 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-13 20:43:29.547  INFO 19068 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-13 20:43:29.550  INFO 19068 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-13 20:43:31.103  WARN 4204 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2022-07-13 20:43:31.104  INFO 4204 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-13 20:43:31.107  INFO 4204 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-13 20:43:31.108  INFO 4204 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
