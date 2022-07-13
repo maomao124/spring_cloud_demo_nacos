@@ -1,8 +1,10 @@
 package mao.order_service.config;
 
+import com.alibaba.cloud.nacos.ribbon.NacosRule;
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RandomRule;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * Project name(项目名称)：spring_cloud_demo_eureka
@@ -17,6 +19,7 @@ import org.springframework.context.annotation.Bean;
  * Description(描述)： 无
  */
 
+@Configuration
 public class RibbonConfig
 {
     /**
@@ -25,8 +28,8 @@ public class RibbonConfig
      * @return RandomRule
      */
     @Bean
-    public IRule randomRule()
+    public IRule nacosRule()
     {
-        return new RandomRule();
+        return new NacosRule();
     }
 }

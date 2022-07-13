@@ -29,6 +29,15 @@ spring:
       discovery:
         # nacos 服务端地址
         server-addr: localhost:8848
+        # 配置集群名称，也就是机房位置
+        cluster-name: HZ
+
+# 负载均衡
+#userservice:
+#  ribbon:
+#    # 负载均衡规则
+#    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
+
 
 
 # 开启debug模式，输出调试信息，常用于检查系统运行状况
