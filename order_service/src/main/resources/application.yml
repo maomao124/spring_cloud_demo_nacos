@@ -31,6 +31,7 @@ spring:
         server-addr: localhost:8848
         # 配置集群名称，也就是机房位置
         cluster-name: HZ
+        # namespace: 5544c4b1-2899-4915-94af-f9940c01c2b9
 
 # 负载均衡
 #userservice:
